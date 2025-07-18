@@ -1,0 +1,48 @@
+.calendar-container {
+  font-family: Arial;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 100%;
+}
+.calendar-header {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 4px;
+}
+.calendar-cell {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  position: relative;
+}
+.calendar-cell.birthday {
+  background-color: #ffe0e0;
+  cursor: pointer;
+}
+.calendar-cell.empty {
+  background-color: transparent;
+  border: none;
+}
+.calendar-cell .birthday-popup {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 5px;
+  width: 100%;
+  z-index: 5;
+}
+.calendar-cell.birthday:hover .birthday-popup {
+  display: block;
+}
+.calendar-cell.header {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
