@@ -17,7 +17,7 @@ Este es un plugin para [Questions2Answers](https://www.question2answer.org/) que
 
 1. Descarga este repositorio como archivo ZIP o clónalo:
    ```bash
-   git clone https://github.com/tu_usuario/q2a-birthday-calendar.git
+   git clone https://github.com/Monkey80s/q2a-birthday-calendar-/edit/main/README.md
 ````
 
 2. Descomprime la carpeta si descargaste el ZIP.
